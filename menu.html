@@ -4,47 +4,83 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Table of Contents</title>
     <meta name="title" content="Table of Contents">
-    <link href="css/style_efb.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <header id="page-header">
-        <h1>A320 Displays and Panels</h1>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="scripts/ui.js"></script>
+    <!-- <script type="text/javascript" src="scripts/jquery.min.js"></script> -->
+</head>
+
+<body class='fbw-grey'>
+    <header id="page-header">
+        <h1>A32NX Users Guide and Introduction</h1>
         <nav>
-          <ul>
-            <li class="current_page_item"><a title="Table of Contents" href="menu.html">ToC</a></li>
-            <li><a title="Back" href="javascript:history.back();">Back</a></li>
-            <li><a title="Forward" href="javascript:history.forward();">Fwd</a></li>
-			      <li><a title="Index" href="sections/index/index.html">Index </a></li>
-            <li><a title="Panels" href="panels.html">Panels</a></li>
-          </ul>
+            <ul>
+                <li class="selected_nav_item"><a title="Table of Contents" href="menu.html">ToC</a></li>
+                <li><a title="Back" href="javascript:history.back();">Back</a></li>
+                <li><a title="Forward" href="javascript:history.forward();">Fwd</a></li>
+                <li><a title="Index" href="sections/index/index.html">Index </a></li>
+                <li><a title="Panels" href="panels.html">Panels</a></li>
+            </ul>
         </nav>
         <p>Main Page</p>
-      </header>
-      <div id="page2">
-        <div id="page-bgtop2">
-          <div id="page-bgbtm">
-            <article class="wide-content">
-              <div class="title">
-                <h1>Table of Contents</h1>
-              </div>
-              <section>
-                <div class="content-menu1">
-                  <ul id="navmenu2">
-                    <li><a title="Airplane General" href="sections/airplane_general/airplane_general.html">1 - Airplane General</a></li>
-                    <li><a title="Communications" href="sections/communications/communications.html">2 - Communications</a></li>
-                    <li><a title="Electrical and Lighting" href="sections/electrical/electrical.html">3 - Electrical and Lighting</a></li>
-                    <li><a title="Emergency Equipment" href="sections/emergency_equipment/emergency_equipment.html">4 - Emergency Equipment</a></li>
-                    <li><a title="Engines and APU" href="sections/engines/engines.html">5 - Engines and APU</a></li>
-                    <li><a title="Fire Protection" href="sections/fire_protection/fire_protection.html">6 - Fire Protection</a></li>
+    </header>
+        <h1>Table of Contents</h1>
+        <section>
+            <div id="accordion" class='fbw-grey-box'>
+                <button onclick="doaccordion('section_one')" class="accordion_button">Section One - About the Aircraft</button>
+                <section id='section_one' class="hide fbw-light-box">
+                    <p>Airplane General</p>
+                    <p>Operating Limits</p>
+                    <p>System Limits</p>
+                </section>
+
+                <button onclick="doaccordion('section_two')" class='accordion_button'>Section Two - Communication Systems</button>
+                <section id='section_two' class="hide fbw-light-box">
+                    <p>Audio Control Panel</p>
+                    <p>Calls Panel</p>
+                    <p>External Service Panel</p>
+                    <p>Flight Recorder Panel</p>
+                </section>
+                
+                <button onclick="doaccordion('section_three')" class='accordion_button'>Section Three - Electrical and Lighting systems</button>
+                <section id='section_three' class="hide fbw-light-box">
+                    <p>Electrical Systems Display</p>
+                    <p>Electrical Control Panel</p>
+                    <p>Emergency Electrical Control Panel</p>
+                    <p>Instrument Lighting Control Panel</p>
+                    <p>Exterior Lighting Controls</p>
+                    <p>Integral and Cabin lighting</p>
+                    <p>Electrical System</p>
+                </section>
+                
+                <button onclick="doaccordion('section_four')" class='accordion_button'>Section Four - Emergency Equipment</button>
+                <section id='section_four' class='hide fbw-light-box'>
+                    <p>Emergency Oxygen Systems</p>
+                    <p>Emergency Exits and Slides</p>
+                    <p>Emergency Evacuation Panel</p>
+                    <p>Oxygen Panel</p>
+                </section>
+                               
+                <button onclick="doaccordion('section_five')" class='accordion_button'>Section Five - Engines and APU</button>
+                <section id='section_five' class='hide fbw-light-box'>
+                    <p>Auxilliary Power Unit (APU)</p>
+                    <p>Auto Thrust System</p>
+                    <p>Engine Warning Display</p>
+                    <p>Thrust Levers</p>
+                    <p>Engine Start and Ignition</p> <!-- Start, master, N1 mode and Man Start switches-->
+                    <p>Engine Information</p> <!-- LEAP-1A and IAE, when we have them -->
+                </section>
+                               
+                <button onclick="doaccordion('section_six')" class='accordion_button'>Section Six - Fire Protection Systems</button>
+                <section id='section_six' class='hide fbw-light-box'>
+                    <p>Cargo Smoke Panels</p>
+                    <p>Engine and APU Fire</p>
+                    <p>Fire Protection Systems</p>
+                </section>
+                
+                
+<!--  
                     <li><a title="Flight Controls" href="sections/flight_controls/flight_controls.html">7 - Flight Controls</a></li>
                     <li><a title="Flight Instruments" href="sections/flight_instruments/flight_instruments.html">8 - Flight Instruments</a></li>
-                  </ul>
-                </div>
-
-                <div class="content-menu2">
-                  <ul id="navmenu2">
                     <li><a title="Fuel System" href="sections/fuel_system/fuel_system.html">9 - Fuel Systems</a></li>
                     <li><a title="Hydraulics" href="sections/hydraulics/hydraulics.html">10 - Hydraulics</a></li>
                     <li><a title="Ice and Rain" href="sections/ice_and_rain/ice_and_rain.html">11 - Ice and Rain</a></li>
@@ -54,14 +90,8 @@
                     <li><a title="Pneumatics" href="sections/pneumatics/pneumatics.html">15 - Pneumatics</a></li>
                     <li><a title="Warning Systems" href="sections/warning_systems/warning_systems.html">16 - Warning Systems</a></li>
                   </ul>
-                </div>
-              </section>
-            </article>
-          </div>
-        </div>
-      </div>
-      <footer>
-      </footer>
-    </div>
-  </body>
+-->
+            </div>
+        </section>
+</body>
 </html>
