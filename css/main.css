@@ -1,5 +1,10 @@
-a{
-    text-decoration: none
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
 }
 
 ul{
@@ -7,8 +12,10 @@ ul{
 }
 
 ul li{
-    text-decoration: none
+    text-decoration: none;
+    text-align: center;
 }
+
 
 nav{
     margin-left: 5%;
@@ -20,10 +27,17 @@ nav{
     border: 1px solid black;
 }
 
+
+p{
+    text-align: center;
+}
+
+
 .selected_nav_item{
     background-color: #6399AE;
     padding: 10px;
     border-radius: 3px;
+    text-align: center;
 }
 
 nav ul li{
@@ -32,11 +46,17 @@ nav ul li{
 }
 
 
+.title-header{
+    text-align: center
+}
+
+
 .hide {
     display: none!important
 }
 
 .accordion_button{
+    text-align: center;
     display: block;
     margin-left: 10%;
     margin-right: 10%;
@@ -78,7 +98,11 @@ nav ul li{
 }
 
 .fbw-grey2{
-    background-color: #a9a9a9;
+    background-color: #606060;
+}
+
+.fbw-grey3{
+    background-color: #6d6d6d;
 }
 
 .fbw-grey-box{
@@ -91,6 +115,10 @@ nav ul li{
     border: 2px solid black;
 }
 
+.fbw-grey-box2{
+    width: 65%;
+}
+
 
 .fbw-light-box{
     margin-left: 14%;
@@ -101,4 +129,32 @@ nav ul li{
     border: 1px solid black;
     padding: 5px 0px 5px 20px;
     border-radius: 5px;  
+}
+
+.nav_item{
+     text-align: left;
+}
+
+
+.sidenav {
+  height: 60%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  margin: 4.75% 2.5% ;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+
+.sidenav li{
+    padding-top: 5px;
+}
+
+.selected{
+    padding: 5px;
+    border-radius: 2px;
+    border: 0.5px solid black;
+    background-color: #6399AE;
 }
