@@ -12,20 +12,20 @@
 <body class='fbw-grey'>
     <header id="page-header">
         <h1 class='title-header'>A32NX Users Guide and Introduction</h1>
-        <nav>
+        <nav class='fbw-light2'>
             <ul>
-                <li><a title="Table of Contents" href="../../menu.html">ToC</a></li>
+                <li><a title="Table of Contents" href="../../menu.html">Home</a></li>
                 <li><a title="Back" href="javascript:history.back();">Back</a></li>
                 <li><a title="Forward" href="javascript:history.forward();">Fwd</a></li>
                 <li><a title="Index" href="sections/index/index.html">Index </a></li>
                 <li><a title="Panels" href="../../panels.html">Panels</a></li>
-                <li class="selected_nav_item"><a title="airplane_general.html">Section One</a></li>
+                <li class="selected_nav_item fbw-dark"><a title="airplane_general.html">Section One</a></li>
             </ul>
         </nav>
     </header>
     <div class='sidenav fbw-grey3'>
         <ul>
-            <li class='nav_item'><a class="selected" title="1 - Airplane General" href="airplane_general.html">1 - Airplane General</a></li>
+            <li class='nav_item'><a class="selected fbw-dark shadow-box2" title="1 - Airplane General" href="airplane_general.html">1 - Airplane General</a></li>
             <li class='nav_item'><a title="2 - Communications" href="../communications/communications.html">2 - Communications</a></li>
             <li class='nav_item'><a title="3 - Electrical and Lighting" href="../electrical/electrical.html">3 - Electrical and Lighting</a></li>
             <li class='nav_item'><a title="4 - Emergency Equipment" href="../emergency_equipment/emergency_equipment.html">4 - Emergency Equipment</a></li>
@@ -45,21 +45,21 @@
     </div>
 
     <article class="content">
-        <h1 class='title-header'>Airplane General</h1>
+        <h2 class='title-header'>Airplane General</h2>
         <section>
-            <div id="accordion" class='fbw-grey-box fbw-grey-box2'>
-                <button onclick="doaccordion('airplane_general')" class="accordion_button">Airplane General</button>
-                <section id='airplane_general' class="hide fbw-light-box">
-                    <p>Airplane Dimensions</p>
-                    <p>Turning Radius</p>
-                    <p>External Probe Locations</p>
-                    <p>External Antennae Locations</p>
-                    <p>Exterior Doors</p>
-                    <p>Ground Service Ports and Panels</p>
+            <div id="accordion" class='fbw-grey-box fbw-grey-box2 '>
+                <button onclick="doaccordion('airplane_general')" class="accordion-button fbw-grey4">Airplane General</button>
+                <section id='airplane_general' class="hide fbw-light-box fbw-light">
+                    <p class='subsection-link'><a href="#">Airplane Dimensions</a></p>
+                    <p class='subsection-link'><a href="#">Turning Radius</a></p>
+                    <p class='subsection-link'><a href="#">External Probe Locations</a></p>
+                    <p class='subsection-link'><a href="#">External Antennae Locations</a></p>
+                    <p class='subsection-link'><a href="#">Exterior Doors</a></p>
+                    <p class='subsection-link'><a href="#">Ground Service Ports and Panels</a></p>
                 </section>
 
-                <button onclick="doaccordion('operating_limits')" class="accordion_button">Operating Limits</button>
-                <section id='operating_limits' class="hide fbw-light-box">
+                <button onclick="doaccordion('operating_limits')" class="accordion-button fbw-grey4">Operating Limits</button>
+                <section id='operating_limits' class="hide fbw-light-box shadow-box fbw-light">
                     <p>Maximum Airspeed</p>
                     <p>Maximum Altitudes</p>
                     <p>Maximum Weights</p>
@@ -71,8 +71,8 @@
                     <p>Other Airplane Limits</p>
                 </section>
 
-                <button onclick="doaccordion('system_limits')" class="accordion_button">System Limits</button>
-                <section id='system_limits' class="hide fbw-light-box">
+                <button onclick="doaccordion('system_limits')" class="accordion-button fbw-grey4">System Limits</button>
+                <section id='system_limits' class="hide fbw-light-box shadow-box fbw-light">
                     <p>Engine Limitations</p>
                     <p>Engine Operating Parameters</p>
                     <p>APU Limitations</p>

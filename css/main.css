@@ -1,61 +1,75 @@
-a:link, a:visited{
+/*
+ * Light Blue: 00C2CB
+ * Dark Blue: 6399AE
+ * Grey: 545454
+ * 
+ * See bottom for the full colour list.
+ */
+
+.title-header {
+    background-color: #aaaaaa;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-right: 35%;
+    padding: 0.25em;
+}
+
+a:link,
+a:visited {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
-ul{
-    list-style-type: none
+ul {
+    list-style-type: none;
 }
 
-ul li{
+ul li {
     text-decoration: none;
     text-align: center;
 }
 
-
-nav{
+nav {
+    font-size: 1.05em;
     margin-left: 5%;
     margin-right: 15%;
     padding: 0.5px 0px 0.5px 0px;
     width: 85.5%;
-    background-color: #00DAE5;
     border-radius: 3px;
     border: 1px solid black;
+    box-shadow: 5px 5px 10px #303030;
 }
 
-
-p{
+p {
     text-align: center;
 }
 
-
-.selected_nav_item{
-    background-color: #6399AE;
+.selected_nav_item {
     padding: 10px;
     border-radius: 3px;
     text-align: center;
+    box-shadow: 2.5px 2.5px 5px #616161;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     padding: 0px 25px;
 }
 
-
-.title-header{
-    text-align: center
+.title-header {
+    text-align: center;
 }
-
 
 .hide {
-    display: none!important
+    display: none !important;
 }
 
-.accordion_button{
+.accordion-button {
+    font-size: 1.05em;
     text-align: center;
     display: block;
     margin-left: 10%;
@@ -65,49 +79,17 @@ nav ul li{
     border-radius: 5px;
     border: 2px solid black;
     margin-bottom: 2px;
-    background-color: #cbcbcb;
+    cursor: pointer;
 }
 
 .show-block,
 .show {
-    display: block!important
+    display: block !important;
 }
 
-.fbw-light{
-    background-color: #00C2CB;    
-}
-
-.fbw-light2{
-    background-color: #00DAE5;
-}
-
-.fbw-dark{
-    background-color: #6399AE
-}
-
-.fbw-dark2{
-    background-color: #009198;
-}
-
-.fbw-dark3{
-    background-color: #00797F;
-}
-
-.fbw-grey{
-    background-color: #545454;
-}
-
-.fbw-grey2{
-    background-color: #606060;
-}
-
-.fbw-grey3{
-    background-color: #6d6d6d;
-}
-
-.fbw-grey-box{
+.fbw-grey-box {
     width: 80%;
-    padding:2.5%;
+    padding: 2.5%;
     margin-left: 5%;
     margin-right: 5%;
     background-color: #7a7a7a;
@@ -115,46 +97,103 @@ nav ul li{
     border: 2px solid black;
 }
 
-.fbw-grey-box2{
+.fbw-grey-box2 {
     width: 65%;
 }
 
-
-.fbw-light-box{
+.fbw-light-box {
     margin-left: 14%;
     margin-right: 14%;
     margin-bottom: 2.5%;
     width: 70%;
-    background-color: #00C2CB;
     border: 1px solid black;
     padding: 5px 0px 5px 20px;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 
-.nav_item{
-     text-align: left;
+.nav_item {
+    text-align: left;
 }
-
 
 .sidenav {
-  height: 60%;
-  width: 20%;
-  position: fixed;
-  z-index: 1;
-  right: 0;
-  margin: 4.75% 2.5% ;
-  border-radius: 5px;
-  border: 2px solid black;
+    height: 65%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    margin: 4.75% 2.5%;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
-
-.sidenav li{
+.sidenav li {
+    font-size: 1.05em;
     padding-top: 5px;
 }
 
-.selected{
+.selected {
     padding: 5px;
     border-radius: 2px;
     border: 0.5px solid black;
+    margin-bottom: 1%;
+
+}
+
+.subsection-link {
+    font-size: 1.05em;
+    border: 1px solid black;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: left;
+    padding: 2.5px 0px 2.5px 25px;
+}
+
+
+/* Box shadows! */
+
+.shadow-box {
+    box-shadow: 5px 5px 10px #555555;
+}
+
+.shadow-box2 {
+    box-shadow: 2.5px 2.5px 5px #3d3d3d;
+}
+
+
+/* Colours! */
+
+.fbw-light {
+    background-color: #00C2CB;
+}
+
+.fbw-light2 {
+    background-color: #00DAE5;
+}
+
+.fbw-dark {
     background-color: #6399AE;
+}
+
+.fbw-dark2 {
+    background-color: #009198;
+}
+
+.fbw-dark3 {
+    background-color: #00797F;
+}
+
+.fbw-grey {
+    background-color: #545454;
+}
+
+.fbw-grey2 {
+    background-color: #606060;
+}
+
+.fbw-grey3 {
+    background-color: #6d6d6d;
+}
+
+.fbw-grey4 {
+    background-color: #cbcbcb;
 }
