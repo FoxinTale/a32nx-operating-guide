@@ -116,9 +116,9 @@ nav ul li {
 }
 
 .sidenav {
-    height: 65%;
+    height: 75%;
     width: 20%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     right: 0;
     margin: 4.75% 2.5%;
@@ -128,7 +128,7 @@ nav ul li {
 
 .sidenav li {
     font-size: 1.05em;
-    padding-top: 5px;
+    padding-top: 0.5em;
 }
 
 .selected {
@@ -148,7 +148,26 @@ nav ul li {
     padding: 2.5px 0px 2.5px 25px;
 }
 
+.spacer{
+    margin-right: 20%;
+    margin-left: 5%;
+}
 
+#one-sidenav{
+    height: 25%;
+}
+
+.tab{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dimension-image{
+    margin-top: 1rem;
+    border: 3px dotted black;
+    border-radius: 10px;
+    padding:0.5rem;
+}
 /* Box shadows! */
 
 .shadow-box {
