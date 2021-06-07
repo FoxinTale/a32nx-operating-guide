@@ -166,7 +166,26 @@ nav ul li {
     margin-top: 1rem;
     border: 3px dotted black;
     border-radius: 10px;
-    padding:0.5rem;
+    padding: 0.5rem;
+}
+
+.info{
+    display: block;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1rem;
+}
+
+.info-list li{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+
+.good-link{
+    color: blue;
 }
 /* Box shadows! */
 
