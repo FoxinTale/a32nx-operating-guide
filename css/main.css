@@ -184,8 +184,20 @@ nav ul li {
 }
 
 
-.good-link{
-    color: blue;
+footer{
+    padding-top: 2rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+
+footer img{
+    align-content: center;
+    width: auto;
+    height: 2rem;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
 }
 /* Box shadows! */
 
