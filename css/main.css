@@ -4,20 +4,23 @@
  * Grey: 545454
  * 
  * See bottom for the full colour list.
+ * 
+ * Margin and Padding: Top, Right, Bottom, Left
+ * Two values= top/bottom ,left/right
  */
 
 .title-header {
     background-color: #aaaaaa;
     border: 1px solid black;
-    margin-left: 25%;
-    margin-right: 35%;
+    margin: 0% 25%;
     padding: 0.25em;
+    text-align: center;
 }
 
 a:link,
 a:visited {
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 a:hover {
@@ -35,8 +38,7 @@ ul li {
 
 nav {
     font-size: 1.05em;
-    margin-left: 5%;
-    margin-right: 15%;
+    margin: 0% 15% 0% 5%;
     padding: 0.5px 0px 0.5px 0px;
     width: 85.5%;
     border-radius: 3px;
@@ -60,10 +62,6 @@ nav ul li {
     padding: 0px 25px;
 }
 
-.title-header {
-    text-align: center;
-}
-
 .hide {
     display: none !important;
 }
@@ -71,15 +69,24 @@ nav ul li {
 .accordion-button {
     font-size: 1.05em;
     text-align: center;
-    display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 10%;
     width: 80%;
     padding: 5px;
-    border-radius: 5px;
     border: 2px solid black;
-    margin-bottom: 2px;
-    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.accordion-button:hover {
+    background-color: #6d6d6d;
+}
+
+.section-link:hover {
+    box-shadow: 2.5px 2.5px 5px #3d3d3d;
+    padding: 5px;
+    border: 0.5px dotted black;
+    margin: 0% 25%;
+    background-color: #00DAE5;
+    font-size: 1.05em;
 }
 
 .show-block,
@@ -90,9 +97,9 @@ nav ul li {
 .fbw-grey-box {
     width: 80%;
     padding: 2.5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #7a7a7a;
+    margin: 0% 5%;
+    background-color: #7a7a
+7a;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -102,13 +109,10 @@ nav ul li {
 }
 
 .fbw-light-box {
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-bottom: 2.5%;
+    margin: 0% 14% 2.5% 14%;
     width: 70%;
     border: 1px solid black;
     padding: 5px 0px 5px 20px;
-    border-radius: 5px;
 }
 
 .nav_item {
@@ -122,7 +126,6 @@ nav ul li {
     z-index: 1;
     right: 0;
     margin: 4.75% 2.5%;
-    border-radius: 5px;
     border: 2px solid black;
 }
 
@@ -139,66 +142,70 @@ nav ul li {
 
 }
 
-.subsection-link {
+.subsection-link,
+.section-link {
     font-size: 1.05em;
     border: 1px solid black;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin: 2.5% 25%;
     text-align: center;
     padding: 2.5px 0px 2.5px 25px;
 }
 
-.spacer{
-    margin-right: 20%;
-    margin-left: 5%;
+.spacer {
+    margin: 0% 20% 0% 5%;
 }
 
-#one-sidenav{
+#one-sidenav {
     height: 25%;
 }
 
-.tab{
+.tab {
     padding: 5px;
-    border-radius: 5px;
 }
 
-.dimension-image{
+.dimension-image {
     margin-top: 1rem;
     border: 3px dotted black;
     border-radius: 10px;
     padding: 0.5rem;
 }
 
-.info{
+.info {
     display: block;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0% 15%;
     padding-top: 1rem;
 }
 
-.info-list li{
-    margin-left: 20%;
-    margin-right: 20%;
+.info-list li,
+.info-list {
+    margin: 0% 20%;
     text-align: left;
 }
 
-
-footer{
+footer {
     padding-top: 2rem;
-    margin-left: 40%;
-    margin-right: 40%;
-    
+    margin: 0% 40%;
 }
 
-footer img{
+footer img {
     align-content: center;
     width: auto;
     height: 2rem;
     background-color: lightgray;
     padding: 5px;
+}
+
+
+/* Border radii */
+.border2 {
+    border-radius: 2px;
+}
+
+.border5 {
     border-radius: 5px;
 }
+
 /* Box shadows! */
 
 .shadow-box {
