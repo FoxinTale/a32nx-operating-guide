@@ -12,7 +12,7 @@
 .title-header {
     background-color: #aaaaaa;
     border: 1px solid black;
-    margin: 0% 25%;
+    margin: 1% 25%;
     padding: 0.25em;
     text-align: center;
 }
@@ -53,7 +53,6 @@ p {
 .selected_nav_item {
     padding: 10px;
     border-radius: 3px;
-    text-align: center;
     box-shadow: 2.5px 2.5px 5px #616161;
 }
 
@@ -80,15 +79,6 @@ nav ul li {
     background-color: #6d6d6d;
 }
 
-.section-link:hover {
-    box-shadow: 2.5px 2.5px 5px #3d3d3d;
-    padding: 5px;
-    border: 0.5px dotted black;
-    margin: 0% 25%;
-    background-color: #00DAE5;
-    font-size: 1.05em;
-}
-
 .show-block,
 .show {
     display: block !important;
@@ -98,8 +88,7 @@ nav ul li {
     width: 80%;
     padding: 2.5%;
     margin: 0% 5%;
-    background-color: #7a7a
-7a;
+    background-color: #7a7a7a;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -139,35 +128,24 @@ nav ul li {
     border-radius: 2px;
     border: 0.5px solid black;
     margin-bottom: 1%;
-
 }
 
-.subsection-link,
-.section-link {
+.info-list li{
     font-size: 1.05em;
     border: 1px solid black;
-    margin: 2.5% 25%;
+    margin: 2.5% 25% 2.5% 20%;
     text-align: center;
     padding: 2.5px 0px 2.5px 25px;
+    border-radius: 2px;
+}
+
+.info-list li:hover{
+    box-shadow: 2.5px 2.5px 5px #3d3d3d;
+    background-color: #00DAE5;
 }
 
 .spacer {
     margin: 0% 20% 0% 5%;
-}
-
-#one-sidenav {
-    height: 25%;
-}
-
-.tab {
-    padding: 5px;
-}
-
-.dimension-image {
-    margin-top: 1rem;
-    border: 3px dotted black;
-    border-radius: 10px;
-    padding: 0.5rem;
 }
 
 .info {
@@ -177,10 +155,12 @@ nav ul li {
     padding-top: 1rem;
 }
 
-.info-list li,
-.info-list {
-    margin: 0% 20%;
-    text-align: left;
+.info-list a{
+    color: black;
+}
+
+.info-list a:hover{
+    color: blue;
 }
 
 footer {
@@ -189,11 +169,9 @@ footer {
 }
 
 footer img {
-    align-content: center;
     width: auto;
-    height: 2rem;
-    background-color: lightgray;
-    padding: 5px;
+    height: 2.5rem;
+    padding: 10px;
 }
 
 
@@ -205,6 +183,7 @@ footer img {
 .border5 {
     border-radius: 5px;
 }
+
 
 /* Box shadows! */
 

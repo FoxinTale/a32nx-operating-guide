@@ -18,123 +18,133 @@
                 <li class="selected_nav_item fbw-dark"><a title="Table of Contents" href="menu.html">Home</a></li>
                 <li><a title="Back" href="javascript:history.back();">Back</a></li>
                 <li><a title="Forward" href="javascript:history.forward();">Fwd</a></li>
-                <li><a title="Index" href="sections/index/index.html">Index</a></li>
-                <li><a title="Panels" href="panels.html">Panels</a></li>
+                <li><a title="Index" href="#">Index</a></li>
+                <li><a title="Panels" href="#">The Cockpit</a></li>
             </ul>
         </nav>
     </header>
 
     <section>
-        <h1 class='title-header'>Table of Contents</h1>
-        <div id="accordion" class='fbw-grey-box'>
-            <button onclick="doaccordion('introduction')" class='accordion-button fbw-grey4 border5'>Introduction</button>
+        <h1 class='title-header centre'>Table of Contents</h1>
+        <div id="accordion" class='fbw-grey-box fbw-grey2'>
+            <button onclick="doaccordion('introduction')" class='accordion-button fbw-grey4 border5 shadow-box2'>Introduction</button>
             <section id='introduction' class='hide fbw-light-box fbw-light border5'>
-                <p class='section-link'><a href="sections/introduction/introduction.html">Introduction to the aircraft.</a></p>
+                <ul class='info-list'>
+                    <li><a href="sections/introduction/introduction.html">Introduction to the aircraft.</a></li>
+                    <li><a href="#">About this site</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('pfd')" class='accordion-button fbw-grey4 border5'>Primary Flight Display (PFD)</button>
+            <button onclick="doaccordion('pfd')" class='accordion-button fbw-grey4 border5 shadow-box2'>Primary Flight Display (PFD)</button>
             <section id='pfd' class='hide fbw-light-box fbw-light border5'>
-                <p class='section-link'>PFD Overveiw</p>
-                <p class='section-link'>Flight Mode Annunciators</p>
-                <p class='section-link'>Airspeed Indications</p>
-                <p class='section-link'>Attitude, Guidance and Radioaltimeter</p>
-                <p class='section-link'>Altitude and Vertical Speed</p>
-                <p class='section-link'>Systems Display (Instrument, Glideslope...)</p>
-                <p class='section-link'>Mach and other speeds</p>
-                <p class='section-link'>Headings</p>
-                <p class='section-link'>Barometer Settings</p>
+                <ul class='info-list'>
+                    <li><a href="#">PFD Overveiw</a></li>
+                    <li><a href="#">Flight Mode Annunciators</a></li>
+                    <li><a href="#">Airspeed Indications</a></li>
+                    <li><a href="#">Attitude, Guidance and Radioaltimeter</a></li>
+                    <li><a href="#">Altitude and Vertical Speed</a></li>
+                    <li><a href="#">Systems Display (Instrument, Glideslope...)</a></li>
+                    <li><a href="#">Mach and other speeds</a></li>
+                    <li><a href="#">Headings</a></li>
+                    <li><a href="#">Barometer</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('nd')" class='accordion-button fbw-grey4 border5'>Navigational Display (ND)</button>
+            <button onclick="doaccordion('nd')" class='accordion-button fbw-grey4 border5 shadow-box2'>Navigational Display (ND)</button>
             <section id='nd' class='hide fbw-light-box fbw-light border5'>
-                <p>ND Overview</p>
-                <p>Display Modes</p>
-                <p>Weather Radar</p>
-                <p>Speeds, Winds and Heading</p>
-                <p>Tracks</p>       
+                <ul class='info-list'>
+                    <li><a href="#">ND Overview</a></li>
+                    <li><a href="#">Display Modes</a></li>
+                    <li><a href="#">Weather Radar</a></li>
+                    <li><a href="#">Terrain Display</a></li>
+                    <li><a href="#">Speeds, Winds and Heading</a></li>
+                    <li><a href="#">Tracks</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('ewd')" class='accordion-button fbw-grey4 border5'>Engine Warning Display (EWD)</button>
+            <button onclick="doaccordion('ewd')" class='accordion-button fbw-grey4 border5 shadow-box2'>Engine Warning Display (EWD)</button>
             <section id='ewd' class='hide fbw-light-box fbw-light border5'>
-                <p>EWD Overview</p>
+                <ul class='info-list'>
+                    <li><a href="#">EWD Overveiw</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('ecam')" class='accordion-button fbw-grey4 border5'>Electronic Centralized Aircraft Monitor (ECAM)</button>
+            <button onclick="doaccordion('ecam')" class='accordion-button fbw-grey4 border5 shadow-box2'>Electronic Centralized Aircraft Monitor (ECAM)</button>
             <section id='ecam' class='hide fbw-light-box fbw-light border5'>
-                <p>ECAM Overview</p>
-                <P>Engine (ENG)</P>
-                <p>Bleed</p>
-                <p>Pressure (PRESS)</p>
-                <p>Electrical (ELEC)</p>
-                <p>Hydraulics (HYD)</p>
-                <p>Fuel</p>
-                <p>APU</p>
-                <p>Air Conditioning (COND)</p>
-                <p>Doors</p>
-                <p>Wheels</p>
-                <p>Flight Control (F/CTL)</p>
-                <p>All</p>
-                <p>Status (STS)</p>
-                <p>System (SYS)</p>
+                <ul class='info-list'>
+                    <li><a href="#">ECAM Overview</a></li>
+                    <li><a href="#">Engine (ENG)</a></li>
+                    <li><a href="#">Bleed</a></li>
+                    <li><a href="#">Pressure (PRESS)</a></li>
+                    <li><a href="#">Electrical (ELEC)</a></li>
+                    <li><a href="#">Hydraulics (HYD)</a></li>
+                    <li><a href="#">Fuel</a></li>
+                    <li><a href="#">APU</a></li>
+                    <li><a href="#">Air Conditioning (COND)</a></li>
+                    <li><a href="#">Doors</a></li>
+                    <li><a href="#">Wheels</a></li>
+                    <li><a href="#">Flight Controls (F/CTL)</a></li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Status (STS)</a></li>
+                    <li><a href="#">Systems (SYS)</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('mcdu')" class='accordion-button fbw-grey4 border5'>Multifunctional Control Display Unit (MCDU)</button>
+            <button onclick="doaccordion('mcdu')" class='accordion-button fbw-grey4 border5 shadow-box2'>Multifunctional Control Display Unit (MCDU)</button>
             <section id='mcdu' class='hide fbw-light-box fbw-light border5'>
-                <p>MCDU Overview</p>
-                <p>Menu</p>
-                <p>Dir To</p>
-                <p>Progress</p>
-                <p>Performance</p>
-                <p>Initialization</p>
-                <p>Data Index</p>
-                <p>Flight Plan</p>
-                <p>Radio Navigation</p>
-                <p>Fuel Prediction</p>
-                <p>Secondary Flight Plan</p>
-                <p>ATC Comms</p>
+                <ul class='info-list'>
+                    <li><a href="#">MCDU Overview</a></li>
+                    <li><a href="#">Menu Page</a></li>
+                    <li><a href="#">Dir To Page</a></li>
+                    <li><a href="#">Progress Page</a></li>
+                    <li><a href="#">Performance Page</a></li>
+                    <li><a href="#">Initialization Page</a></li>
+                    <li><a href="#">Data Index Page</a></li>
+                    <li><a href="#">Flight Plan Page</a></li>
+                    <li><a href="#">Radio Navigation Page</a></li>
+                    <li><a href="#">Fuel Prediction Page</a></li>
+                    <li><a href="#">Secondary Flight Plan Page</a></li>
+                    <li><a href="#">ATC Comms Page</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('overhead_panel')" class='accordion-button fbw-grey4 border5'>Overhead Panel</button>
+            <button onclick="doaccordion('overhead_panel')" class='accordion-button fbw-grey4 border5 shadow-box2'>Overhead Panel</button>
             <section id='overhead_panel' class='hide fbw-light-box fbw-light border5'>
-                <p>Overhead Overveiw</p>
-                <p>Air Data Inertial Reference System (ADIRS)</p>
-                <p>Fire Suppression (Engines, APU, and Cargo)</p>
-                <p>Flight Controls</p>
-                <p>Hydraulics Panel</p>
-                <p>Fuel Panel</p>
-                <p>Emergencies (Emer Elec and Evac)</p>
-                <p>Enhanced Ground Proximity Warning System (EGPWS)</p>
-                <p>Oxygen Panel</p>
-                <p>Calls</p>
-                <p>Electrical Panel</p>
-                <p>Air Conditioning Panel</p>
-                <p>Anti-Ice Panel</p>
-                <p>Lighting Panel</p>
-                <p>Cabin Pressure Panel</p>
-                <p>Ventilation Panel</p>
-                <p>Rain</p>
+                <ul class='info-list'>
+                    <li><a href="#">Overhead Panel Overveiw</a></li>
+                    <li><a href="#">Air Data Inertial Reference System (ADIRS)</a></li>
+                    <li><a href="#">Fire Suppression (Engines, APU, and Cargo)</a></li>
+                    <li><a href="#">Flight Controls Panel</a></li>
+                    <li><a href="#">Hydraulics Panel</a></li>
+                    <li><a href="#">Fuel Panel</a></li>
+                    <li><a href="#">Emergencies (Emer Elec and Evac)</a></li>
+                    <li><a href="#">Enhanced Ground Proximity Warning System (EGPWS)</a></li>
+                    <li><a href="#">Oxygen Panel</a></li>
+                    <li><a href="#">Calls Panel</a></li>
+                    <li><a href="#">Electrical Panel</a></li>
+                    <li><a href="#">Air Conditioning Panel</a></li>
+                    <li><a href="#">Anti-Ice Panel</a></li>
+                    <li><a href="#">Lighting Panel</a></li>
+                    <li><a href="#">Cabin Pressure Panel</a></li>
+                    <li><a href="#">Ventilation PAnel</a></li>
+                    <li><a href="#">Rain</a></li>
+                </ul>
             </section>
 
-            <button onclick="doaccordion('general_systems')" class='accordion-button fbw-grey4 border5'>General Systems</button>
+            <button onclick="doaccordion('general_systems')" class='accordion-button fbw-grey4 border5 shadow-box2'>General Systems</button>
             <section id='general_systems' class='hide fbw-light-box fbw-light border5'>
-                <p>Systems Overview</p>
-                <p>Hydraulics System</p>
-                <p>Pneumatics System</p>
-                <p>Electrical System</p>
-                <p>Fuel Systems</p>
-            </section>
-
-            <button onclick="doaccordion('comms')" class='accordion-button fbw-grey4 border5'>Communication Systems</button>
-            <section id='comms' class='hide fbw-light-box fbw-light border5'>
-                <p>Audio Control Panel</p>
-                <p>Calls Panel</p>
-                <p>External Service Panel</p>
-                <p>Flight Recorder Panel</p>
+                <ul class='info-list'>
+                    <li><a href="#">Systems Overview</a></li>
+                    <li><a href="#">Hydraulics Systems</a></li>
+                    <li><a href="#">Pneumatics Systems</a></li>
+                    <li><a href="#">Electrical Systems</a></li>
+                    <li><a href="#">Fuel Systems</a></li>
+                </ul>
             </section>
         </div>
     </section>
     <footer>
-        <img class='border5' src="img/FBW-Logo.svg">
+        <img class='border5 fbw-grey4' src="img/FBW-Logo.svg">
     </footer>
 </body>
 
