@@ -9,12 +9,22 @@
  * Two values= top/bottom ,left/right
  */
 
+body {
+    background-image: linear-gradient(#6399AE, #00AFB7);
+}
+
+ul li, p, .title-header, .accordion-button, .info,  .info-list li{
+    text-align: center;
+}
+
 .title-header {
     background-color: #aaaaaa;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 1% 25%;
     padding: 0.25em;
-    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
 }
 
 a:link,
@@ -29,11 +39,12 @@ a:hover {
 
 ul {
     list-style-type: none;
+    font-family: sans-serif;
 }
 
 ul li {
     text-decoration: none;
-    text-align: center;
+    
 }
 
 nav {
@@ -44,16 +55,22 @@ nav {
     border-radius: 3px;
     border: 1px solid black;
     box-shadow: 5px 5px 10px #303030;
+    font-family: sans-serif;
 }
 
-p {
-    text-align: center;
+.nav-menu a {
+    color: black;
+}
+
+.nav-menu a:hover, .info-list a:hover{
+    color: blue;
 }
 
 .selected_nav_item {
     padding: 10px;
     border-radius: 3px;
     box-shadow: 2.5px 2.5px 5px #616161;
+    border: 1px solid black;
 }
 
 nav ul li {
@@ -67,12 +84,12 @@ nav ul li {
 
 .accordion-button {
     font-size: 1.05em;
-    text-align: center;
     margin: 0% 10%;
     width: 80%;
     padding: 5px;
     border: 2px solid black;
     margin-bottom: 1%;
+    font-family: sans-serif;
 }
 
 .accordion-button:hover {
@@ -130,16 +147,15 @@ nav ul li {
     margin-bottom: 1%;
 }
 
-.info-list li{
+.info-list li {
     font-size: 1.05em;
     border: 1px solid black;
     margin: 2.5% 25% 2.5% 20%;
-    text-align: center;
     padding: 2.5px 0px 2.5px 25px;
     border-radius: 2px;
 }
 
-.info-list li:hover{
+.info-list li:hover {
     box-shadow: 2.5px 2.5px 5px #3d3d3d;
     background-color: #00DAE5;
 }
@@ -150,17 +166,12 @@ nav ul li {
 
 .info {
     display: block;
-    text-align: center;
     margin: 0% 15%;
     padding-top: 1rem;
 }
 
-.info-list a{
+.info-list a {
     color: black;
-}
-
-.info-list a:hover{
-    color: blue;
 }
 
 footer {
@@ -174,6 +185,15 @@ footer img {
     padding: 10px;
 }
 
+/* Fonts */
+
+/*
+@font-face {
+    font-family: '<name>';
+    src: url("../fonts/<filename>.woff") format("woff"),
+        url("../fonts/<filename>.woff2") format("woff2");
+}
+*/
 
 /* Border radii */
 .border2 {

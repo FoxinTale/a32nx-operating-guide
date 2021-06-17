@@ -1,0 +1,39 @@
+The text content for the Flight Mode Annunciations (FMA) on the Primary Flight Display (PFD).
+Images are needed of each before a page is properly added, but the text can pre-exist.
+
+
+"A. FLOOR"
+This amber boxed "A FLOOR" indicator appears when the speed is between Alpha Max and Alpha Protection, and indicated Alpha floor has been reached.
+The auto thrust system commands TO/GA thrust regardless of the position of the thrust levers. The conditions for alpha prot to activate are based on precalulated degrees of the angle of attack.
+When "A. Floor" conditions no longer exist, this changes to "TOGA LK".
+
+"TOGA LK"
+This amber boxed indication shows up after the activation of Alpha Floor, when the conditions for that no longer exist, which are when the calculated speed is equal to or greater than the Alpha protection speed, and TOGA thrust is still active.
+This is removed and thrust control regained by disengaging or turning off athe auto thrust system, even momentarily.
+
+"LVR CLB"
+This, when it appears, will flash white to prompt the pilot to move the thrust levers to the Climb (CL) detent.
+This can automatically appear  as a part of the takeoff procedure or the thrust reduction height after a go around. The Master Caution light will flash,
+and a singular chime sounds every 5 seconds the levers are at a lesser detent then CL.
+
+"LVR MCT"
+This, when it appears, will flash white to prompt the pilot to move the thrust levers to the Maximum Continuous Thrust (MCT) detent.
+This can automatically appear  as a part of the takeoff procedure or the missed approach profile at the green dot speed. The Master Caution light will flash,
+and a singular chime sounds every 5 seconds the levers are at a lesser detent then MCT.
+
+"LVR ASYM"
+When one thrust lever is in the CL or MCT/FLX detent but the other is not.
+
+"AP 1"
+When this shows, autopilot 1 is engaged.
+
+"AP 2"
+When this shows, autopilot 2 is engaged.
+
+"AP 1+2"
+This shows when both autopilots are engaged, with AP 1 flying and AP 2 on standby.
+
+"CAT 1" 
+
+
+
