@@ -2,6 +2,7 @@ The text content for the Flight Mode Annunciations (FMA) on the Primary Flight D
 Images are needed of each before a page is properly added, but the text can pre-exist.
 
 
+
 "A. FLOOR"
 This amber boxed "A FLOOR" indicator appears when the speed is between Alpha Max and Alpha Protection, and indicated Alpha floor has been reached.
 The auto thrust system commands TO/GA thrust regardless of the position of the thrust levers. The conditions for alpha prot to activate are based on precalulated degrees of the angle of attack.
@@ -24,6 +25,14 @@ and a singular chime sounds every 5 seconds the levers are at a lesser detent th
 "LVR ASYM"
 When one thrust lever is in the CL or MCT/FLX detent but the other is not.
 
+"MAN TOGA"
+When the thrust levers are manually set to the TO/GA detent, and one flight director is enabled. When this is displayed,
+the auto thrust is automatically enabled, TOGA thrust is commanded to the engines, and this is displayed.
+
+"MAN PITCH TRIM ONLY"
+IF this appears, especially in red, it's a bad day. This means that flight controls are now operating in mechanical backup mode,
+with the stabilizer trim, differential thrust and the rudders being the only means of controlling the aircraft.
+
 "AP 1"
 When this shows, autopilot 1 is engaged.
 
@@ -34,6 +43,20 @@ When this shows, autopilot 2 is engaged.
 This shows when both autopilots are engaged, with AP 1 flying and AP 2 on standby.
 
 "CAT 1" 
+
+"CAT 2"
+
+"CAT 3 SINGLE"
+Displayed when one autopilot is engaged during an ILS approach, and the approach button has been selected.
+Typically indicated one autopilot has failed during a CAT IIIB autoland approach, when the RVR is 600 feet or less.
+
+"CAT 3 DUAL"
+Displayed when both autopilots are engaged during an ILS approach, and the approach button has been selected.
+
+"EXP CLIMB"
+Shows whilst climbing and the EXPED button has been pressed. Commands maximum pitch up while maintaining green dot speed.
+FCU altitude must be set above actual altitude, and any speed or altitude constraints in the MCDU are ignored.
+
 
 
 

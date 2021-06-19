@@ -13,7 +13,7 @@ body {
     background-image: linear-gradient(#6399AE, #00AFB7);
 }
 
-ul li, p, .title-header, .accordion-button, .info,  .info-list li{
+ul li, p, .title-header, .accordion-button, .info, .info-list li {
     text-align: center;
 }
 
@@ -22,14 +22,20 @@ ul li, p, .title-header, .accordion-button, .info,  .info-list li{
     border: 2px solid black;
     margin: 1% 25%;
     padding: 0.25em;
-    font-family: sans-serif;
-    font-weight: 300;
     border-radius: 3px;
+    font-family: 'aileron';
+    font-weight: 300;
 }
 
-a:link,
-a:visited {
+nav, .accordion-button, ul{
+    font-family: 'ubuntu';
+}
+
+a:link, a:visited, ul li {
     text-decoration: none;
+}
+
+a:link, a:visited {
     color: blue;
 }
 
@@ -39,12 +45,6 @@ a:hover {
 
 ul {
     list-style-type: none;
-    font-family: sans-serif;
-}
-
-ul li {
-    text-decoration: none;
-    
 }
 
 nav {
@@ -55,14 +55,14 @@ nav {
     border-radius: 3px;
     border: 1px solid black;
     box-shadow: 5px 5px 10px #303030;
-    font-family: sans-serif;
 }
 
 .nav-menu a {
     color: black;
 }
 
-.nav-menu a:hover, .info-list a:hover{
+.nav-menu a:hover,
+.info-list a:hover {
     color: blue;
 }
 
@@ -89,7 +89,6 @@ nav ul li {
     padding: 5px;
     border: 2px solid black;
     margin-bottom: 1%;
-    font-family: sans-serif;
 }
 
 .accordion-button:hover {
@@ -151,7 +150,7 @@ nav ul li {
     font-size: 1.05em;
     border: 1px solid black;
     margin: 2.5% 25% 2.5% 20%;
-    padding: 2.5px 0px 2.5px 25px;
+    padding: 2.5px 0px 5px 25px;
     border-radius: 2px;
 }
 
@@ -185,15 +184,27 @@ footer img {
     padding: 10px;
 }
 
+.screenshot {
+    padding: 20px;
+    height: inherit;
+    width: inherit;
+}
+
 /* Fonts */
 
-/*
+
 @font-face {
-    font-family: '<name>';
-    src: url("../fonts/<filename>.woff") format("woff"),
-        url("../fonts/<filename>.woff2") format("woff2");
+    font-family: 'aileron';
+    src: url("../fonts/Aileron-Light.woff") format("woff"),
+        url("../fonts/Aileron-Light.woff2") format("woff2");
 }
-*/
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url("../fonts/Ubuntu-Regular.woff") format("woff"),
+        url("../fonts/Ubuntu-Regular.woff2") format("woff2");
+}
+
 
 /* Border radii */
 .border2 {
