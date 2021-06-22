@@ -1,6 +1,6 @@
 /*
  * Light Blue: 00C2CB
- * Dark Blue: 6399AE
+ * Dark Blue: 1B2434
  * Grey: 545454
  * 
  * See bottom for the full colour list.
@@ -10,30 +10,18 @@
  */
 
 body {
-    background-image: linear-gradient(#6399AE, #00AFB7);
-}
-
-ul li, p, .title-header, .accordion-button, .info, .info-list li {
-    text-align: center;
+    /* background-image: linear-gradient(#1B2434, #51719B); */
+    background-color: #1B2434
 }
 
 .title-header {
     background-color: #aaaaaa;
-    border: 2px solid black;
     margin: 1% 25%;
     padding: 0.25em;
-    border-radius: 3px;
     font-family: 'aileron';
     font-weight: 300;
 }
 
-nav, .accordion-button, ul{
-    font-family: 'ubuntu';
-}
-
-a:link, a:visited, ul li {
-    text-decoration: none;
-}
 
 a:link, a:visited {
     color: blue;
@@ -52,23 +40,21 @@ nav {
     margin: 0% 15% 0% 5%;
     padding: 0.5px 0px 0.5px 0px;
     width: 85.5%;
-    border-radius: 3px;
     border: 1px solid black;
-    box-shadow: 5px 5px 10px #303030;
+    box-shadow: 5px 5px 10px; 
+    background-color: white;
 }
 
 .nav-menu a {
     color: black;
 }
 
-.nav-menu a:hover,
-.info-list a:hover {
+.nav-menu a:hover, .info-list a:hover {
     color: blue;
 }
 
 .selected_nav_item {
     padding: 10px;
-    border-radius: 3px;
     box-shadow: 2.5px 2.5px 5px #616161;
     border: 1px solid black;
 }
@@ -87,7 +73,6 @@ nav ul li {
     margin: 0% 10%;
     width: 80%;
     padding: 5px;
-    border: 2px solid black;
     margin-bottom: 1%;
 }
 
@@ -95,29 +80,35 @@ nav ul li {
     background-color: #6d6d6d;
 }
 
-.show-block,
-.show {
+.show-block, .show {
     display: block !important;
 }
 
+/*
 .fbw-grey-box {
     width: 80%;
     padding: 2.5%;
     margin: 0% 5%;
     background-color: #7a7a7a;
     border-radius: 10px;
-    border: 2px solid black;
 }
+*/
 
 .fbw-grey-box2 {
     width: 65%;
 }
 
-.fbw-light-box {
+.fbw-light-box, .fbw-box {
     margin: 0% 14% 2.5% 14%;
     width: 70%;
     border: 1px solid black;
     padding: 5px 0px 5px 20px;
+}
+
+.fbw-box2 {
+    width: 80%;
+    padding: 2.5%;
+    margin: 0% 5%;
 }
 
 .nav_item {
@@ -131,7 +122,6 @@ nav ul li {
     z-index: 1;
     right: 0;
     margin: 4.75% 2.5%;
-    border: 2px solid black;
 }
 
 .sidenav li {
@@ -156,7 +146,8 @@ nav ul li {
 
 .info-list li:hover {
     box-shadow: 2.5px 2.5px 5px #3d3d3d;
-    background-color: #00DAE5;
+    background-color: #a4c3d0;
+      /*  #00DAE5; */
 }
 
 .spacer {
@@ -190,8 +181,32 @@ footer img {
     width: inherit;
 }
 
-/* Fonts */
 
+
+/* Shared properties */
+
+ul li, p, .title-header, .accordion-button, .info, .info-list li {
+    text-align: center;
+}
+
+nav, .accordion-button, ul{
+    font-family: 'ubuntu';
+}
+
+a:link, a:visited, ul li {
+    text-decoration: none;
+}
+
+.title-header, .accordion-button, .fbw-grey-box, .sidenav{
+    border: 2px solid black;
+}
+
+.title-header,  nav, .selected_nav_item{
+    border-radius: 3px;
+}
+
+
+/* Fonts */
 
 @font-face {
     font-family: 'aileron';
@@ -238,7 +253,7 @@ footer img {
 }
 
 .fbw-dark {
-    background-color: #6399AE;
+    background-color: #1B2434;
 }
 
 .fbw-dark2 {
@@ -246,7 +261,11 @@ footer img {
 }
 
 .fbw-dark3 {
-    background-color: #00797F;
+    background-color: #7e99bc;
+}
+
+.fbw-dark4{
+    background-color: #6485af;
 }
 
 .fbw-grey {
