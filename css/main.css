@@ -11,15 +11,17 @@
 
 body {
     /* background-image: linear-gradient(#1B2434, #51719B); */
-    background-color: #1B2434
+    background-color: #1B2434;
 }
 
 .title-header {
-    background-color: #aaaaaa;
+    /*background-color: #aaaaaa;*/
+    color: white;
     margin: 1% 25%;
     padding: 0.25em;
     font-family: 'aileron';
     font-weight: 300;
+    align-self: center;
 }
 
 
@@ -40,13 +42,15 @@ nav {
     margin: 0% 15% 0% 5%;
     padding: 0.5px 0px 0.5px 0px;
     width: 85.5%;
-    border: 1px solid black;
-    box-shadow: 5px 5px 10px; 
-    background-color: white;
+  /*border: 1px solid black;
+    box-shadow: 5px 5px 10px; */
+    box-shadow: 0px 4px 15px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    background-color: #0F1724;
 }
 
 .nav-menu a {
-    color: black;
+    color: white;
 }
 
 .nav-menu a:hover, .info-list a:hover {
@@ -57,6 +61,7 @@ nav {
     padding: 10px;
     box-shadow: 2.5px 2.5px 5px #616161;
     border: 1px solid black;
+    text-decoration: underline;
 }
 
 nav ul li {
@@ -74,6 +79,10 @@ nav ul li {
     width: 80%;
     padding: 5px;
     margin-bottom: 1%;
+    background-color: #0F1724;
+    box-shadow: 0px 4px 15px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    color: white;
 }
 
 .accordion-button:hover {
@@ -101,8 +110,11 @@ nav ul li {
 .fbw-light-box, .fbw-box {
     margin: 0% 14% 2.5% 14%;
     width: 70%;
-    border: 1px solid black;
+ /*   border: 1px solid black; */
     padding: 5px 0px 5px 20px;
+    background: #1D2939;
+    box-shadow: 0px 4px 15px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
 }
 
 .fbw-box2 {
@@ -138,15 +150,20 @@ nav ul li {
 
 .info-list li {
     font-size: 1.05em;
-    border: 1px solid black;
     margin: 2.5% 25% 2.5% 20%;
     padding: 2.5px 0px 5px 25px;
-    border-radius: 2px;
+    background: #0F1724;
+    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    /*
+    border: 1px solid black;
+    border-radius: 2px; */
 }
 
 .info-list li:hover {
-    box-shadow: 2.5px 2.5px 5px #3d3d3d;
-    background-color: #a4c3d0;
+    border: 3px solid #00C2CC;
+   /* box-shadow: 2.5px 2.5px 5px #3d3d3d;
+    background-color: #a4c3d0; */
       /*  #00DAE5; */
 }
 
@@ -161,7 +178,7 @@ nav ul li {
 }
 
 .info-list a {
-    color: black;
+    color: white;
 }
 
 footer {
@@ -171,6 +188,7 @@ footer {
 
 footer img {
     width: auto;
+    align-content: center;
     height: 2.5rem;
     padding: 10px;
 }
@@ -197,16 +215,18 @@ a:link, a:visited, ul li {
     text-decoration: none;
 }
 
-.title-header, .accordion-button, .fbw-grey-box, .sidenav{
-    border: 2px solid black;
+.fbw-grey-box, .sidenav{ /*.title-header, .accordion-button */
+    border: 2px solid black; 
 }
 
+/*
 .title-header,  nav, .selected_nav_item{
     border-radius: 3px;
 }
+*/
 
 
-/* Fonts */
+/* Fonts. These are stored locally so offline development can be done. Once production time is ready, we'll switch to CDNs and Fonts API.*/
 
 @font-face {
     font-family: 'aileron';
